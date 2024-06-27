@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Cooper Black Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Cooper Black Regular'), url('fonts/COOPBL.woff') format('woff');
+}
+@font-face {
+  font-family: 'Cascadia Code';
+  src: url('fonts/Cascadia.ttf');
+}
+
+body {
+  margin: 0;
+  font-family: 'Cascadia Code', serif;
+}
+
+#app {
+  height: fit-content;
+}
